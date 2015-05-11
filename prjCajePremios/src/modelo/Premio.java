@@ -11,4 +11,5 @@ package modelo;
  */
 public class Premio {
     private String nombre="";
+    private String descripcion="";
 }
