@@ -10,5 +10,6 @@ package modelo;
  * @author TOSHIBA
  */
 public class Coordinador {
+    int codigo;
     
 }
