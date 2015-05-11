@@ -10,11 +10,12 @@ package modelo;
  * @author TOSHIBA
  */
 public class Estudiante {
+    private String ensayo="";
  private String codigo,password,nombre,apellido="";
  private int puntos,grupo=0;
 
     public Estudiante() {
-        setPuntos(puntos);
+     
     }
 
     public Estudiante(String codigo, String password, String nombre, int puntos) {
