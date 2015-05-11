@@ -13,4 +13,5 @@ public class Premio {
     private String nombre="";
     private int valor;
     
+    private String descripcion="";
 }
