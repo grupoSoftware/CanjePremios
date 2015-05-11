@@ -10,5 +10,5 @@ package modelo;
  * @author TOSHIBA
  */
 public class Premio {
-    
+    private String nombre="";
 }
