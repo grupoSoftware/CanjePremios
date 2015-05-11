@@ -10,8 +10,23 @@ package modelo;
  * @author TOSHIBA
  */
 public class Premio {
-    private String nombre="";
+
+    private String nombre = "";
     private int valor;
+    private String descripcion = "";
+    private int puntos = 0;
+
+    public Premio() {
     
-    private String descripcion="";
+    }
+    
+    
+    
+    
+    
+    
+    
+       
+  
+    
 }

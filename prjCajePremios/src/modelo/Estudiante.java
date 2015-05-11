@@ -10,12 +10,13 @@ package modelo;
  * @author TOSHIBA
  */
 public class Estudiante {
-    private String ensayo="";
- private String codigo,password,nombre,apellido="";
- private int puntos,grupo=0;
+
+    private String ensayo = "";
+    private String codigo, password, nombre, apellido = "";
+    private int puntos, grupo = 0;
 
     public Estudiante() {
-     
+
     }
 
     public Estudiante(String codigo, String password, String nombre, int puntos) {
@@ -25,7 +26,6 @@ public class Estudiante {
         this.puntos = puntos;
     }
 
- 
     /**
      * @return the codigo
      */
@@ -109,6 +109,5 @@ public class Estudiante {
     public void setGrupo(int grupo) {
         this.grupo = grupo;
     }
- 
 
 }
