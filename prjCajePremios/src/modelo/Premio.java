@@ -11,4 +11,6 @@ package modelo;
  */
 public class Premio {
     private String nombre="";
+    private int valor;
+    
 }
